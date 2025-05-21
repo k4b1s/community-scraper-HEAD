@@ -1,0 +1,16 @@
+{
+  "name": "community-scraper",
+  "version": "1.0.0",
+  "description": "A scraper that retrieves community member accounts from a specified URL.",
+  "main": "src/scraper.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/scraper.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "emoji-regex": "^10.3.0",
+    "prompt-sync": "^4.2.0",
+    "puppeteer": "^21.3.8"
+  }
+}
